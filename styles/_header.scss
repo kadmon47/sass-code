@@ -1,0 +1,41 @@
+.head {
+    height: 100vh;
+    background-color: rgb(185, 23, 185);
+
+    .navigation {
+        background-color: rgb(26, 167, 26);
+        width:100%;
+
+        header {
+            width: 90%;
+            margin:auto;
+            color:white;
+            padding:20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div {
+                flex-grow: 1;
+                
+                img {
+                    width:100px;
+                    height:100px;
+                }
+            }
+            nav {
+                flex-grow: 2;
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content:space-around;
+                    li {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

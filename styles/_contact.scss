@@ -1,0 +1,29 @@
+.middle {
+    height:100vh;
+    background-color: rgb(79, 99, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        font-size: 5rem;
+        color:white;
+        margin-bottom:10px;
+    }
+    a {
+        width: 300px;
+        border:0px;
+        font-weight: bold;
+        border-radius: 20% 40%;
+        padding:20px;
+        text-align: center;
+        text-decoration: none;
+        background-color:rgba(238, 27, 27, 0.801);
+        color:white;
+    }
+    a:hover {
+        background-color:rgba(153, 22, 22, 0.801);
+        cursor: pointer;
+    }
+   
+}
